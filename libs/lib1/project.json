@@ -1,0 +1,15 @@
+{
+  "name": "lib1",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "library",
+  "sourceRoot": "libs/lib1/src",
+  "targets": {
+    "build": {
+      "executor": "@nx/angular:package",
+      "options": {
+        "tsConfig": "libs/lib1/tsconfig.lib.json",
+        "project": "libs/lib1/ng-package.json"
+      }
+    }
+  }
+}

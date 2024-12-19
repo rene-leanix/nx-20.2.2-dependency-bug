@@ -1,0 +1,16 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "strict": true,
+    "useDefineForClassFields": false
+  },
+  "angularCompilerOptions": {
+    "strictMetadataEmit": true,
+    "skipTemplateCodegen": true,
+    "enableResourceInlining": true,
+    "importHelpers": true,
+    "strictInjectionParameters": true,
+    "fullTemplateTypeCheck": true,
+    "enableIvy": true
+  }
+}
